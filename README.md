@@ -26,3 +26,25 @@ Exploratory analyses included principal component analysis (PCA), volcano plots,
 
 These findings suggest that ECM-associated transcriptional changes may warrant further investigation in T2DM. The analysis is exploratory and does not establish a causal relationship.
 
+## Results Visualization
+
+The following figures summarize the transcriptomic analysis and ECM-focused investigation:
+
+- [PCA Plot](figures/PCA_Plot.png) — Sample-level variation in gene expression.
+- [Volcano Plot](figures/Volcano%20Plot%20.png) — Differential expression between T2DM and controls.
+- [Differential Expression Heatmap](figures/Heatmap.png) — Gene expression patterns across samples.
+- [ECM Gene Expression Heatmap](figures/ECM_GE_Heatmap.pdf) — Expression patterns of seven ECM-associated genes.
+- [ECM Fold-Change Plot](figures/ECM_fold_change_plot.png) — Fold changes of seven ECM-associated genes, expressed as T2DM versus control.
+
+## Data Source and Availability
+
+This project uses publicly available RNA-seq data associated with GEO accession [GSE326582](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326582). Ten sequencing runs (five T2DM and five controls) were selected from the 22-sample dataset for independent reanalysis.
+
+- **T2DM:** SRR37874037, SRR37874038, SRR37874039, SRR37874040, SRR37874041
+- **Controls:** SRR37874054, SRR37874055, SRR37874056, SRR37874057, SRR37874058
+
+## Research Report
+
+The complete project report, including methodology, results, visualizations, interpretation, and limitations, is available in the [report folder](report/).
+
+
