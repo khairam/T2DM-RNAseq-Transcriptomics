@@ -3,8 +3,7 @@ library(readxl)
 library(ggplot2)
 library(dplyr)
 
-ecm_data <- read_excel(file.choose())
-
+ecm_data <- readr::read_delim(file.choose(), delim = "\t", col_names = c("Gene ID", "baseMean", "log2FoldChange", "lfcSE", "stat", "pvalue", "padj"), show_col_types = FALSE)
 ecm_ids <- c(
   "ENSG00000145423",
   "ENSG00000091986",
